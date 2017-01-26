@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coming+Soon" type="text/css" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <img src="./images/tic-tac-toe-title.png">
+            </div>
+        </div>
+        <em>Choose O or X</em>
+        <div class="row symbol">
+            <div class="col-xs-6 text-right">
+                <img src="./images/o-tic-tac-toe.png" id="O" class="hover-ptr">
+            </div>
+            <div class="col-xs-6 text-left">
+                <img src="./images/x-tic-tac-toe.png" id="X" class="hover-ptr">
+            </div>
+        </div>
+        <em><u id="turn"></u></em>
+        <p id="reset"><u>Play Again?</u></p>
+        <div id="win">
+            <div class="tic-tac-toe" id="board">
+                <div class="row">
+                    <div class="col-xs-4 tile" id="top_left">
+                    </div>
+                    <div class="col-xs-4 tile" id="top_middle">
+                    </div>
+                    <div class="col-xs-4 tile" id="top_right">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4 tile" id="center_left">
+                    </div>
+                    <div class="col-xs-4 tile" id="center_middle">
+                    </div>
+                    <div class="col-xs-4 tile" id="center_right">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4 tile" id="bottom_left">
+                    </div>
+                    <div class="col-xs-4 tile" id="bottom_middle">
+                    </div>
+                    <div class="col-xs-4 tile" id="bottom_right">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="./tictactoe.js"></script>
+</body>
+
+</html>

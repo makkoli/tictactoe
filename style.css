@@ -1,0 +1,101 @@
+body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: url('./images/Lightgreen-chalkboard.jpg');
+  font-family: 'Coming Soon', cursive;
+  color: #FFF;
+  font-size: xx-large;
+}
+
+.tic-tac-toe {
+  margin: 10px auto;
+  height: 500px;
+  width: 500px;
+  background: url('./images/tictactoe.png');
+}
+
+#win {
+  margin: 10px auto;
+  height: 500px;
+  width: 500px;
+}
+
+#top_left {
+  height: 175px;
+  width: 165px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#top_middle {
+  width: 150px;
+  height: 145px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#top_right {
+  width: 150px;
+  height: 130px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+#center_left {
+  width: 160px;
+  height: 160px;
+  padding-left: 25px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+}
+
+#center_middle {
+  width: 160px;
+  height: 150px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+
+#center_right {
+  width: 150px;
+  height: 160px;
+  padding-bottom: 35px;
+}
+
+#bottom_left {
+  width: 170px;
+  height: 150px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+}
+
+#bottom_middle {
+  width: 150px;
+  height: 150px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+}
+
+#bottom_right {
+  width: 150px;
+  height: 150px;
+  padding-bottom: 30px;
+}
+
+.symbol {
+  margin-bottom: 60px;
+}
+
+.hover-ptr {
+  cursor: pointer;
+}
+
+#reset {
+  display: none;
+  cursor: pointer;
+}
